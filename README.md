@@ -109,4 +109,11 @@ Example insufficient stock response:
 
 {
   "success": false,
+  "message": "Insufficient stock available",
+  "available_stock": 10,
+  "requested_quantity": 50
+}
+Notes
+Validation errors return success: false and a list of errors.
 
+All responses are JSON.
